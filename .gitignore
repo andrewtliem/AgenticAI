@@ -12,3 +12,4 @@ ENV/
 .streamlit/secrets.toml
 .env
 *.log
+*.ipynb
