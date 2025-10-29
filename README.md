@@ -102,7 +102,7 @@ All tool calls read and write to the TinyDB JSON tables in this folder, so the S
 
 ## Example Screenshot
 
-![Application Example](example.png)
+![Application Example](Example.png)
 
 ---
 
