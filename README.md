@@ -1,11 +1,10 @@
 # Agentic AI Customer Service Agent
 
-This project packages the advanced agentic workflow from the accompanying notebook into a ready-to-run Streamlit application. The agent behaves like a customer service specialist for an eyewear shop: it plans which tools to call, executes them in sequence, reflects on the tool outputs, and delivers a polished reply to the user.
+This project implements an advanced agentic workflow as a ready-to-run Streamlit application. The agent behaves like a customer service specialist for an eyewear shop: it plans which tools to call, executes them in sequence, reflects on the tool outputs, and delivers a polished reply to the user.
 
 ## Project structure
 
 - `streamlit_app.py` – Streamlit UI and Gemini-powered agent workflow.
-- `Agentic_Workflow_Example_Advanced.ipynb` – Tutorial notebook walking through the same concepts in depth.
 - `customers.json`, `products.json`, `invoices.json` – TinyDB JSON tables persisted on disk.
 - `requirements.txt` – Python dependencies for the app.
 - `.gitignore` – Development-time exclusions (virtual envs, `.env`, caches, etc.).
@@ -82,10 +81,6 @@ If the Gemini SDK or API key is missing, the UI gracefully surfaces instructions
 | `buy_product(customer_name, product_name)` | Simulates a purchase: validates credits and stock, decrements both, and appends a new invoice record. |
 
 All tool calls read and write to the TinyDB JSON tables in this folder, so the Streamlit session always works with the same persisted data.
-
-## Notebook reference
-
-The notebook mirrors the Streamlit experience but adds narrative explanations, code walkthroughs, and exercises for extending the agent. Run it to experiment interactively or to teach the workflow step by step.
 
 ## Troubleshooting
 
