@@ -2,6 +2,8 @@
 
 This project implements an advanced agentic workflow as a ready-to-run Streamlit application. The agent behaves like a customer service specialist for an eyewear shop: it plans which tools to call, executes them in sequence, reflects on the tool outputs, and delivers a polished reply to the user.
 
+> **Inspired by** the [Agentic Workflow course](https://www.deeplearning.ai) by Andrew Ng at DeepLearning.AI.
+
 ## Project structure
 
 - `streamlit_app.py` – Streamlit UI and Gemini-powered agent workflow.
